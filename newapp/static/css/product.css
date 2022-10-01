@@ -1,0 +1,24 @@
+.baxter {
+    background-image: linear-gradient(-90deg, #969690, #c2c7c1);
+}
+
+.card-img-top:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+    /* content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, #f00, #000);
+    mix-blend-mode: multiply; */
+    /* opacity: 0; */
+    transition: 0.5s;
+}
+
+.heading1 {
+    color: beige;
+}

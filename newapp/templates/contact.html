@@ -1,0 +1,79 @@
+{% extends 'new.html' %}{% load static %}{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/product.css' %}">
+
+</head>
+
+<body>
+    <!-- <h3>contact page</h3> -->
+    <div class="container">
+        <form method="get">
+            <div class="container text-center   my-5">
+                <div class="col-lg-8 col-md-12 col-12 ">
+                    <div class="form-group row">
+
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Place</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputPassword3">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="location" class="form-control" id="inputPassword3">
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">click here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="baxter1">
+        <section id="about" class="about-section-padding">
+            <div class="container text-center   my-5">
+                <div class=" row ">
+                    <div class="col-lg-8 col-md-12 col-12 ">
+                        <div class="newimage">
+                            <img src="{% static 'images/company.jpg' %} " alt=" " class="img-fluid ">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 ps-lg-5 mt-md-5 ">
+                        <div class="about-text ">
+                            <iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31287.039633827117!2d75.91990450916812!3d11.416258380904921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba668fa4ed60233%3A0x8868a33db83245f4!2sThamarassery%2C%20Kerala!5e0!3m2!1sen!2sin!4v1663672128337!5m2!1sen!2sin
+                                " width="600 " height="450 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
+{% endblock %}
